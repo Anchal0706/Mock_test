@@ -1,0 +1,23 @@
+question,option_1,option_2,option_3,option_4,correct_option
+"What is the output of print(2**3)?","6","8","16","4",2
+"Which keyword is used for function declaration in Python?","func","define","def","lambda",3
+"Which of the following is an immutable data type?","List","Dictionary","Set","Tuple",4
+"Which operator is used for floor division?","/","//","%","*",2
+"How do you declare a variable in Python?","int x = 5","var x = 5","x = 5","declare x = 5",3
+"Which operator is used for floor division?","/","//","%","*",2
+"How do you declare a variable in Python?","int x = 5","var x = 5","x = 5","declare x = 5",3
+"What does len([1,2,3,4]) return?","3","4","5","Error",2
+"Which method is used to remove an item from a list?","delete()","remove()","discard()","pop()",2
+"What is the correct syntax for list comprehension?","[x for x in range(5)]","(x for x in range(5))","{x for x in range(5)}","<x for x in range(5)>",1
+"What does print(type([])) return?","list","tuple","dictionary","set",1
+"Which module is used for regular expressions?","re","regex","regexp","string",1
+"What is the output of bool([])?","True","False","None","Error",2
+"Which method is used to read a file in Python?","read()","get()","scan()","fetch()",1
+"What is the default return value of a function that doesn’t return anything?","0","None","Empty String","False",2
+"Which keyword is used for exception handling?","try","catch","handle","except",1
+"What does str.strip() do?","Removes leading spaces","Removes trailing spaces","Removes both leading and trailing spaces","Does nothing",3
+"Which of the following is a Python package manager?","npm","pip","composer","yarn",2
+"Which loop runs indefinitely if its condition is always True?","for","while","do-while","None",2
+"How do you create a dictionary?","dict = {‘key’: ‘value’}","dict = (‘key’, ‘value’)","dict = [‘key’, ‘value’]","dict = ‘key’: ‘value’",1
+"Which of the following is not a valid Python identifier?","_name","class","var_1","funcName",2
+"Which function is used to convert a string into an integer?","str()","int()","float()","chr()",2
