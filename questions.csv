@@ -1,31 +1,47 @@
-question,option_1,option_2,option_3,option_4,correct_option,category
-"What is the output of print(2**3)?","6","8","16","4",2,Basic Python
-"Which keyword is used for function declaration in Python?","func","define","def","lambda",3,Basic Python
-"Which of the following is an immutable data type?","List","Dictionary","Set","Tuple",4,Basic Python
-"What does len([1,2,3,4]) return?","3","4","5","Error",2,List
-"Which method is used to remove an item from a list?","delete()","remove()","discard()","pop()",2,List
-"How do you check if an item exists in a list?","if item in list","list.has(item)","find(item) in list","exists(list, item)",1,List
-"What is the difference between append() and extend()?","No difference","append() adds multiple items","extend() adds one item","append() adds one item, extend() merges lists",4,List
-"Which method removes the last item from a list?","remove()","pop()","discard()","del",2,List
-"How do you reverse a list in Python?","reverse(list)","list[::-1]","list.reverse()","Both 2 & 3",4,List
-"What does set.add(x) do?","Adds x if it is not present","Replaces x","Deletes x","Sorts the set",1,Set
-"Which method removes an item safely from a set?","remove()","discard()","pop()","del",2,Set
-"What is the result of {1,2,3} & {2,3,4}?","{2,3}","{1,4}","{1,2,3,4}","{}",1,Set
-"Which function creates an empty set?","set()","{}","set([])","None",1,Set
-"What is the output of 'hello'.upper()?","HELLO","hello","Hello","error",1,String
-"Which method checks if a string starts with a specific substring?","startswith()","beginswith()","startswith_sub()","checkstart()",1,String
-"How do you replace 'world' with 'Python' in 'Hello world'?","replace('world', 'Python')","switch('world', 'Python')","sub('world', 'Python')","change('world', 'Python')",1,String
-"Which loop type executes at least once?","for","while","do-while","None",3,Loops
-"What is the correct syntax for a for loop?","for(i=0;i<5;i++)","for i in range(5)","for i from 0 to 5","loop(i in range(5))",2,Loops
-"What is the default step size in range()?","0","1","-1","2",2,Loops
-"Which keyword is used to exit a loop?","exit","return","break","stop",3,Loops
-"How do you iterate through both keys and values in a dictionary?","for key in dict","for key, value in dict.items()","for value in dict.keys()","for dict in items()",2,Loops
-"How do you create a dictionary in Python?","dict = {}","dict = []","dict = ()","dict = ''",1,Basic Python
-"Which module is used for regular expressions in Python?","re","regex","regexp","pyre",1,Advanced Python
-"How do you open a file in Python for writing?","open('file.txt', 'r')","open('file.txt', 'w')","open('file.txt', 'a')","open('file.txt', 'x')",2,File Handling
-"Which statement is used to handle exceptions in Python?","catch","try-except","error handling","except-try",2,Error Handling
-"What does the zip() function do?","Compress files","Combine iterables element-wise","Sort elements","Split strings",2,Functions
-"How do you check the data type of a variable?","typeof(var)","checktype(var)","type(var)","datatype(var)",3,Basic Python
-"What is the difference between is and == in Python?","No difference","is compares identity, == compares values","is compares values, == compares identity","Both are used for equality checks",2,Advanced Python
-"Which method is used to split a string?","split()","partition()","divide()","break()",1,String
-"How do you create a lambda function?","lambda x: x+1","def lambda(x): x+1","lambda(x) = x+1","function(x) => x+1",1,Functions
+question,option_1,option_2,option_3,option_4,correct_option,category,difficulty
+"What is the output of print(2**3)?","6","8","16","4",2,Basic Python,Easy
+"Which keyword is used for function declaration in Python?","func","define","def","lambda",3,Basic Python,Easy
+"Which of the following is an immutable data type?","List","Dictionary","Set","Tuple",4,Basic Python,Easy
+"How do you check if a value exists in a list?","if value in list","list.has(value)","find(value)","exists(value)",1,List,Easy
+"What does len([1,2,3,4]) return?","3","4","5","Error",2,List,Easy
+"Which method is used to remove an item from a list?","delete()","remove()","discard()","pop()",2,List,Easy
+"How do you remove duplicates from a list?","set(list)","remove_duplicates(list)","list.unique()","dedupe(list)",1,List,Medium
+"What is the output of bool([])?","True","False","Error","None",2,Basic Python,Easy
+"What is encapsulation in OOP?","Data hiding","Function calling","Loop iteration","Memory management",1,OOP,Medium
+"Which method is called a constructor in Python?","__init__()","start()","__construct()","begin()",1,OOP,Easy
+"Which keyword is used for inheritance in Python?","extends","inherits","super","self",3,OOP,Medium
+"Which data structure uses LIFO principle?","Queue","Stack","List","Heap",2,Data Structures,Easy
+"Which sorting algorithm is the fastest on average?","Bubble Sort","Merge Sort","Insertion Sort","Selection Sort",2,Data Structures,Medium
+"Which of the following is a self-balancing tree?","Binary Tree","B-Tree","Binary Search Tree","Heap",2,Data Structures,Hard
+"What is the worst-case time complexity of QuickSort?","O(n)","O(n log n)","O(n²)","O(log n)",3,Data Structures,Hard
+"Which loop type executes at least once?","for","while","do-while","None",3,Loops,Easy
+"What is the default step size in range()?","0","1","-1","2",2,Loops,Easy
+"Which keyword is used to exit a loop?","exit","return","break","stop",3,Loops,Easy
+"How do you iterate through both keys and values in a dictionary?","for key in dict","for key, value in dict.items()","for value in dict.keys()","for dict in items()",2,Loops,Easy
+"Which Python keyword is used to define a class?","class","struct","define","type",1,OOP,Easy
+"How do you create a dictionary in Python?","dict = {}","dict = []","dict = ()","dict = ''",1,Basic Python,Easy
+"Which module is used for regular expressions in Python?","re","regex","regexp","pyre",1,Advanced Python,Medium
+"How do you open a file in Python for writing?","open('file.txt', 'r')","open('file.txt', 'w')","open('file.txt', 'a')","open('file.txt', 'x')",2,File Handling,Medium
+"Which statement is used to handle exceptions in Python?","catch","try-except","error handling","except-try",2,Error Handling,Easy
+"What does the zip() function do?","Compress files","Combine iterables element-wise","Sort elements","Split strings",2,Functions,Medium
+"Which method is used to split a string?","split()","partition()","divide()","break()",1,String,Easy
+"How do you create a lambda function?","lambda x: x+1","def lambda(x): x+1","lambda(x) = x+1","function(x) => x+1",1,Functions,Medium
+"Which operator is used for exponentiation?","^","**","*","%",2,Basic Python,Easy
+"Which function is used to get the length of a string?","size()","length()","len()","count()",3,String,Easy
+"Which of the following is a Python built-in function?","print()","output()","display()","show()",1,Basic Python,Easy
+"Which of the following is NOT a valid variable name?","_variable","myVar","2ndVar","Var_name",3,Basic Python,Easy
+"What is the default return value of a function that does not return anything?","None","0","Empty String","Undefined",1,Functions,Easy
+"Which function converts a string to an integer?","int()","float()","str()","bool()",1,Basic Python,Easy
+"What is the output of print(type([]))?","<class 'list'>","<class 'tuple'>","<class 'array'>","<class 'dict'>",1,Lists,Easy
+"Which of the following is a Python package manager?","pip","npm","composer","yarn",1,Advanced Python,Medium
+"Which method converts a string to lowercase?","lower()","small()","downcase()","tolower()",1,String,Easy
+"Which function can be used to get user input?","input()","read()","scan()","get()",1,Basic Python,Easy
+"Which statement is used to open a file for reading?","open('file.txt', 'r')","open('file.txt', 'w')","open('file.txt', 'a')","open('file.txt', 'x')",1,File Handling,Easy
+"Which keyword is used to handle exceptions?","try","catch","handle","except",1,Error Handling,Easy
+"How do you check if a key exists in a dictionary?","key in dict","dict.hasKey(key)","find(key)","exists(dict, key)",1,Loops,Easy
+"What is the output of print('Hello'[0])?","Hello","H","e","o",2,String,Easy
+"Which of the following is NOT a Python data structure?","List","Tuple","Dictionary","Tree",4,Data Structures,Medium
+"What is the output of 'Python'.upper()?","PYTHON","Python","python","Error",1,String,Easy
+"Which function is used to round a number to the nearest integer?","round()","ceil()","floor()","truncate()",1,Advanced Python,Medium
+"Which method removes an item from a set?","remove()","delete()","pop()","discard()",1,Set,Easy
+"What is the output of len({1, 2, 3, 3, 2})?","2","3","4","5",3,Set,Easy
